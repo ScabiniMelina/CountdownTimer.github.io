@@ -1,0 +1,1 @@
+const countdownDate= prompt(Contdown Date)
