@@ -1,31 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Countdown Timer</title>
 </head>
 <body>
-    <h1>CountDown Timer</h1>
-    <div class="countdown-container">
-        <div class="column--days">
-            <p class="number--big" id="days"></p>
-            <span>days</span>
+    <section>
+        <h1>Countdown Timer</h1>
+        <div class="countdown-container">
+            <div class="countdown-el column--days">
+                <p class="number--big" id="days">0</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el column--hours">
+                <p class="number--big" id="hours">0</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el column--mins">
+                <p class="number--big " id="mins">0</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el column--seconds">
+                <p class="number--big" id="seconds">0</p>
+                <span>seconds</span>
+            </div>
         </div>
-        <div class="column--hours">
-            <p class="number--big" id="hours"></p>
-            <span>hours</span>
-        </div>
-        <div class="column--mins">
-            <p class="number--big " did="mins"></p>
-            <span>mins</span>
-        </div>
-        <div class="column--seconds">
-            <p class="number--big" id="seconds"></p>
-            <span>seconds</span>
-        </div>
-    </div>
+    </section>
     <script src="script.js"></script>
-    </body>
-    </html>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+h1 {
+    font-size: 3.5em;
+    position: relative;    
+}
+
+.number--big {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.countdown-el span {
+    font-size: 1.2em;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.countdown-el {
+    text-align: center;
+    margin: 1.5em 3em;
+}
